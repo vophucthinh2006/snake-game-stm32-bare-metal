@@ -128,3 +128,4 @@ void SH1106_I2C_Transmit(SH1106_TYPE_t type, uint8_t *cmd_data,  uint8_t length)
 	I2C_Master_Transmit_Data(I2C1,cmd_data, length);
 	I2C_Stop(I2C1);
 }
+CÁDC
