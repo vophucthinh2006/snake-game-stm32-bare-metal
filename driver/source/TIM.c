@@ -343,6 +343,3 @@ uint32_t TIM_Get_Random(
 	}
 	return *CNT;
 }
-
-
-
