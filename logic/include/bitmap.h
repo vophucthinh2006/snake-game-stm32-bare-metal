@@ -21,5 +21,3 @@ void OLED_Convert_CF1_To_Buffer(
 );
 
 #endif
-
- dfvz
