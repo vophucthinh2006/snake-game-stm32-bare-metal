@@ -18,3 +18,5 @@
 #define FLASH_AR2        *(volatile uint32_t*)0x40022054
 
 #endif
+
+zcv z c
