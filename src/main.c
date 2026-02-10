@@ -210,5 +210,3 @@ int main (void){
 		}
 	}
 }
-
-ưbb
