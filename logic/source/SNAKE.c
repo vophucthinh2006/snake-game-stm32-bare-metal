@@ -253,18 +253,3 @@ void Highscore_Scan(void){
 
 	FOUR_BIT_LED_Scan(thousands, hundreds, tens, ones);
 }
-
-
-
-
-
-
-
-
-
-
-vaefdva
-
-
-
-
