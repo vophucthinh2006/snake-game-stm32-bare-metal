@@ -45,29 +45,15 @@ This separation improves maintainability and makes system behavior easier to rea
 
 This diagram describes the overall execution flow of the system.
 
-Legend:
-
-Main Loop Flow – primary execution path of the program
-
-Game State Transition – transitions between game states
-
-Button Debounce Processing – software debounce handled by timing logic
-
-Random Food Generation – food placement logic triggered by game events
-
-Layers are visually separated to distinguish:
-
-Main loop layer
-
-State selection layer
-
-Side service layer (button debounce, random generation)
+![SNAKE Game Console - General System State Machine](docs/images/SNAKE_Game_Console_general.svg)
 
 ### 4.2 Game Logic State Machine
 
 This diagram focuses on the internal game logic and gameplay states.
 
 Each state block represents a group of related instructions responsible for a specific game behavior (e.g. movement, collision check, score update).
+
+![SNAKE Game Console - Detail System State Machine](docs/images/SNAKE_Game_Console_detail.svg)
 
 ## 5. Timing and Interrupt Design
 
