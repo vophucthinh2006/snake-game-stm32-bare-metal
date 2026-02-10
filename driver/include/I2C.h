@@ -130,4 +130,3 @@ void I2C_Slave_Stop_Detection(
 		);
 
 #endif
-vdsfvb
