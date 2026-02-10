@@ -88,17 +88,3 @@ void OLED_Update_Page(uint8_t page){
 	SH1106_I2C_Transmit(SH1106_TYPE_cmd, oled_update, 3);
 	SH1106_I2C_Transmit(SH1106_TYPE_data, &OLED_BYTE[page * oled_x], oled_x);
 }
-
-
-
-
-
-
-
-
-
-
-brsdb
-
-
-
