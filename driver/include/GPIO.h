@@ -85,5 +85,3 @@ uint8_t GPIO_Read_Pin(
 		);
 
 #endif
-
-dsfb
