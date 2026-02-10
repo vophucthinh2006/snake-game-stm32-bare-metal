@@ -82,5 +82,3 @@ void Score_Scan(void);
 void Highscore_Scan(void);
 
 #endif
-
-vávd
