@@ -1,4 +1,4 @@
-# Snake Game Console – Bare-Metal STM32
+# SNAKE Game Console – Bare-Metal STM32
 
 A bare-metal Snake game implemented on STM32 using direct register-level programming (no HAL, no RTOS).
 This project focuses on deterministic timing, interrupt-driven design, and finite state machines for game logic.
@@ -32,6 +32,8 @@ Development style: Bare metal (direct register access)
 ## 3. Pinout Schematic
 
 The following schematic shows the pin mapping between the STM32, OLED display, and buttons.
+
+![SNAKE Game Console - Pinout Schematic](docs/images/SNAKE_Game_Console_schematic.svg)
 
 ## 4. Software Architecture
 
