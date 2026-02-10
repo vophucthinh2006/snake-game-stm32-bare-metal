@@ -94,5 +94,3 @@ uint8_t GPIO_Read_Pin(
 	default: return GPIO_PIN_RESET;
 	}
 }
-
-
