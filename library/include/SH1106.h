@@ -75,3 +75,5 @@ uint8_t NOP (void);
 void SH1106_I2C_Transmit(SH1106_TYPE_t type, uint8_t *cmd_data,  uint8_t length);
 
 #endif
+
+FQWEAF
