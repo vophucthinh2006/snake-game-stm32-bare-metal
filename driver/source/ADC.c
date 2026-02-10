@@ -134,4 +134,3 @@ uint16_t ADC_Read_Pin(
 	while (!(*ADC_SR & (1 << 1)));
 	return (uint16_t)*ADC_DR;
 }
-
