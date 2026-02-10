@@ -40,7 +40,7 @@ Development style: Bare metal (direct register access)
 
 ## 4. Pinout Schematic
 
-The following schematic shows the pin mapping between the STM32, OLED display, 4-Bit 7 segment LED display, joystick, and buttons.
+The following schematic shows the pin mapping between the STM32, OLED display, 4-Bit 7 segments LED display, joystick, and buttons.
 
 <p align="center">
   <img src="docs/images/SNAKE_Game_Console_schematic.svg" alt="SNAKE Game Console - Pinout Schematic" width="700">
