@@ -210,3 +210,5 @@ int main (void){
 		}
 	}
 }
+
+ szc 
