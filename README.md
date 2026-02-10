@@ -67,7 +67,7 @@ This diagram focuses on the internal game logic and gameplay states.
 Each state block represents a group of related instructions responsible for a specific game behavior (e.g. movement, collision check, score update).
 
 <p align="center">
-  <img src="docs/images/SNAKE_Game_Console_detail.svg" alt="SNAKE Game Console - Detail System State Machine" width="800">
+  <img src="docs/images/SNAKE_Game_Console_detail.svg" alt="SNAKE Game Console - Detail System State Machine" width="1000">
 </p>
 
 ## 6. Timing and Interrupt Design
@@ -114,7 +114,7 @@ Avoid hidden abstractions and unnecessary overhead
 
 Build a solid foundation for embedded system debugging
 
-## 10. Performance & Timing Trade-offs:
+## 10. Performance & Timing Trade-offs
 
 The system prioritizes deterministic behavior by using the default 8 MHz internal clock.
 An experimental 72 MHz PLL-based configuration was evaluated and found to improve display refresh performance, but at the cost of reduced system stability.
