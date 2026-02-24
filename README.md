@@ -14,15 +14,15 @@ while the Right Button toggles pause and resume during gameplay.
 
 ## 2. Learning Objectives
 
-Practice bare-metal programming on STM32 without using HAL or RTOS
+- Practice bare-metal programming on STM32 without using HAL or RTOS.
 
-Understand ADC, AFIO, GPIO, I2C, RCC, TIMERS, and interrupts at the register level
+- Understand ADC, AFIO, GPIO, I2C, RCC, TIMERS, and interrupts at the register level.
 
-Apply finite state machines to structure embedded game logic
+- Apply finite state machines to structure embedded game logic.
 
-Design a non-blocking main loop using time-driven events
+- Design a non-blocking main loop using time-driven events.
 
-Improve documentation and system-level thinking for embedded projects
+- Improve documentation and system-level thinking for embedded projects.
 
 ## 3. Hardware Overview
 
@@ -72,17 +72,17 @@ Each state block represents a group of related instructions responsible for a sp
 
 ## 6. Timing and Interrupt Design
 
-A hardware timer interrupt is used as the game tick
+A hardware timer interrupt is used as the game tick.
 
-Joystick inputs are sampled periodically to ensure responsive and real-time control
+Joystick inputs are sampled periodically to ensure responsive and real-time control.
 
-Button inputs are sampled periodically and processed using software debounce
+Button inputs are sampled periodically and processed using software debounce.
 
-The main loop remains non-blocking and reacts to state changes
+The main loop remains non-blocking and reacts to state changes.
 
-Gamespace display updates and game logic are decoupled from input handling
+Gamespace display updates and game logic are decoupled from input handling.
 
-The score is rendered on the display and updated continuously during runtime
+The score is rendered on the display and updated continuously during runtime.
 
 This approach ensures predictable timing and avoids blocking delays.
 
@@ -90,15 +90,15 @@ This approach ensures predictable timing and avoids blocking delays.
 
 A short demo video showing gameplay and button interaction:
 
-▶️ [SNAKE Game Console - Demo Video](https://drive.google.com/file/d/1Ac2z-I8ll0Reda7CBXcM6twJafuE7RoA/view?usp=drive_link)
+▶️ [SNAKE Game Console - Demo Video](https://youtu.be/4zx-Nh8mIKU)
 
 ## 8. Build and Flash
 
-Toolchain: arm-none-eabi-gcc
+Toolchain: arm-none-eabi-gcc.
 
-Build system: Makefile
+Build system: Makefile.
 
-Programmer: ST-Link
+Programmer: ST-Link.
 
 No vendor libraries or code generators are used.
 
@@ -106,13 +106,13 @@ No vendor libraries or code generators are used.
 
 This project intentionally avoids HAL and RTOS in order to:
 
-Understand STM32 peripherals at register level
+- Understand STM32 peripherals at register level.
 
-Gain full control over timing and execution flow
+- Gain full control over timing and execution flow.
 
-Avoid hidden abstractions and unnecessary overhead
+- Avoid hidden abstractions and unnecessary overhead.
 
-Build a solid foundation for embedded system debugging
+- Build a solid foundation for embedded system debugging.
 
 ## 10. Performance & Timing Trade-offs
 
@@ -128,24 +128,24 @@ This behavior illustrates a practical trade-off between display refresh performa
 
 This project is primarily intended as a learning exercise and therefore has several limitations:
 
-Game logic and hardware drivers are still partially coupled
+- Game logic and hardware drivers are still partially coupled.
 
-No power-saving modes are used between game ticks
+- No power-saving modes are used between game ticks.
 
-High score is stored in RAM only and is lost after reset
+- High score is stored in RAM only and is lost after reset.
 
-State machine design can be further generalized for scalability
+- State machine design can be further generalized for scalability.
 
 Planned improvements and learning directions include:
 
-Refactoring the code to better separate hardware abstraction and game logic
+- Refactoring the code to better separate hardware abstraction and game logic.
 
-Adding low-power sleep modes between timer interrupts
+- Adding low-power sleep modes between timer interrupts.
 
-Storing high scores in non-volatile memory (Flash / EEPROM)
+- Storing high scores in non-volatile memory (Flash / EEPROM).
 
-Improving the scalability and reusability of the state machine framework
+- Improving the scalability and reusability of the state machine framework.
 
 ## 12. Author
 
-Author: Vo Phuc Thinh
+Author: Vo Phuc Thinh.
