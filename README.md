@@ -26,17 +26,17 @@ while the Right Button toggles pause and resume during gameplay.
 
 ## 3. Hardware Overview
 
-MCU: STM32F103C8T6
+MCU: STM32F103C8T6.
 
-Clock: 8 MHz internal clock (default, stable mode) and 72 MHz PLL-based clock (experimental configuration)
+Clock: 8 MHz internal clock (default, stable mode) and 72 MHz PLL-based clock (experimental configuration).
 
-Display: OLED SH1106 (I2C) and 4-Bit 7 segments LED 74HC595 (GPIO)
+Display: OLED SH1106 (I2C) and 4-Bit 7 segments LED 74HC595 (GPIO).
 
-Input: Joystick HW-504 and push buttons with software debounce
+Input: Joystick HW-504 and push buttons with software debounce.
 
-Programming: ST-Link
+Programming: ST-Link.
 
-Development style: Bare metal (direct register access)
+Development style: Bare metal (direct register access).
 
 ## 4. Pinout Schematic
 
